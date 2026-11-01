@@ -1,0 +1,26 @@
+# Nuxt / Node
+node_modules
+.nuxt
+.output
+.nitro
+.cache
+dist
+*.log
+
+# Helyi környezet
+.env
+.env.*
+!.env.example
+.DS_Store
+*:Zone.Identifier
+.claude
+
+# Nuxt fejlesztői szerver helyi adatai
+.data
+
+# Helyi mentések (csak ezen a gépen)
+_mentes
+
+# Az eredeti 4K videók (forrás, köztük 100 MB feletti is) – a webes változatok bent vannak
+forras
+
